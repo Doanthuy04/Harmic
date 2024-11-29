@@ -21,5 +21,9 @@ public partial class TbProductReview
 
     public int? ProductId { get; set; }
 
-    public bool? IsActive { get; set; }
+    public bool IsActive { get; set; }
+
+    public string? Image { get; set; }
+
+    public virtual TbProduct? Product { get; set; }
 }

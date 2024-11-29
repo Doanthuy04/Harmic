@@ -33,5 +33,7 @@ public partial class TbNews
 
     public string? ModifiedBy { get; set; }
 
-    public bool? IsActive { get; set; }
+    public bool IsActive { get; set; }
+
+    public virtual TbCategory? Category { get; set; }
 }

@@ -30,4 +30,6 @@ public partial class TbCategory
     public string? ModifiedBy { get; set; }
 
     public virtual ICollection<TbBlog> TbBlogs { get; set; } = new List<TbBlog>();
+
+    public virtual ICollection<TbNews> TbNews { get; set; } = new List<TbNews>();
 }
