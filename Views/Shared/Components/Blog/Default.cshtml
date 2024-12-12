@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<Harmic.Models.TbBlog>
 
-@foreach (var item in Model)
+@foreach (var item in Model) 
 {
     string sUrl = $"/Blog/{item.Alias}-{item.BlogId}.html";
     <div class="swiper-slide">
